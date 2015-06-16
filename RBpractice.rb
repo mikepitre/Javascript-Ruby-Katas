@@ -42,11 +42,11 @@ end
 
 def age_verifier(age_arr)
   (age_arr).each do |i|
-  if i < 21
-    puts "Too young"
-  else
-    puts "Proceed"
-  end
+    if i < 21
+      puts "Too young"
+    else
+      puts "Proceed"
+    end
   end
 end
 
